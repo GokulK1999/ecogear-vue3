@@ -1,0 +1,283 @@
+/* EcoGear - Main CSS File */
+
+/* Custom variables */
+:root {
+    /* Primary brand colors */
+    --eco-green: #3a9c5e;
+    --eco-dark-green: #29734a;
+    --eco-light-green: #c5e1a5;
+    --eco-beige: #f5f5dc;
+    --eco-brown: #795548;
+    
+    /* Neutral colors */
+    --eco-gray-light: #f8f9fa;
+    --eco-gray-medium: #dee2e6;
+    --eco-gray-dark: #343a40;
+    
+    /* Accent colors */
+    --eco-orange: #ff9800;
+    --eco-blue: #4dabf7;
+}
+
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--eco-gray-dark);
+    background-color: var(--eco-gray-light);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Custom button styles */
+.btn-eco-primary {
+    background-color: var(--eco-green);
+    border-color: var(--eco-green);
+    color: white;
+}
+
+.btn-eco-primary:hover {
+    background-color: var(--eco-dark-green);
+    border-color: var(--eco-dark-green);
+    color: white;
+}
+
+.btn-eco-secondary {
+    background-color: var(--eco-beige);
+    border-color: var(--eco-beige);
+    color: var(--eco-brown);
+}
+
+.btn-eco-secondary:hover {
+    background-color: var(--eco-gray-medium);
+    border-color: var(--eco-gray-medium);
+}
+
+/* Navbar custom styling */
+.navbar-eco {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--eco-green);
+}
+
+/* Footer styling */
+.footer {
+    background-color: var(--eco-gray-dark);
+    color: white;
+    padding: 3rem 0;
+}
+
+/* Product card styling */
+.product-card {
+    border: none;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card .eco-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--eco-green);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+}
+
+/* Hero section styling */
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 6rem 0;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+/* Form styling */
+.form-control:focus {
+    border-color: var(--eco-green);
+    box-shadow: 0 0 0 0.25rem rgba(58, 156, 94, 0.25);
+}
+
+/* Accessibility focus outline */
+a:focus, button:focus, input:focus, select:focus, textarea:focus {
+    outline: 2px solid var(--eco-orange);
+    outline-offset: 2px;
+}
+
+/* Mobile-first responsive adjustments */
+@media (max-width: 767.98px) {
+    .hero {
+        padding: 4rem 0;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Landscape adjustments */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .product-card .card-img-top {
+        height: 160px;
+    }
+}
+
+/* Desktop adjustments */
+@media (min-width: 992px) {
+    .hero {
+        padding: 8rem 0;
+    }
+}
+
+/* Shopping cart styles */
+.cart-item {
+    border-bottom: 1px solid var(--eco-gray-medium);
+    padding: 1rem 0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* Badge for sustainable products */
+.eco-friendly-badge {
+    background-color: var(--eco-light-green);
+    color: var(--eco-dark-green);
+    font-weight: 600;
+}
+
+/* Category cards */
+.category-card {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    transition: transform 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-10px);
+}
+
+.category-icon {
+    font-size: 2.5rem;
+    color: var(--eco-green);
+    margin-bottom: 1rem;
+}
+
+/* Pagination styling */
+.pagination .page-item.active .page-link {
+    background-color: var(--eco-green);
+    border-color: var(--eco-green);
+}
+
+.pagination .page-link {
+    color: var(--eco-green);
+}
+
+.pagination .page-link:focus {
+    box-shadow: 0 0 0 0.25rem rgba(58, 156, 94, 0.25);
+}
+
+/* Rating stars */
+.rating-stars {
+    color: var(--eco-orange);
+}
+
+/* Testimonial styling */
+.testimonial-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Progress bar for password strength */
+.password-strength-meter {
+    height: 5px;
+    transition: width 0.3s;
+}
+
+/* Order history table */
+.order-table th {
+    background-color: var(--eco-gray-light);
+}
+
+/* Improved accessibility for form labels */
+label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+/* Skip to content link for accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--eco-green);
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Green emphasis for eco features */
+.eco-feature {
+    color: var(--eco-green);
+    font-weight: 600;
+}
