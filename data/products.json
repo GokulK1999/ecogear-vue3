@@ -1,0 +1,423 @@
+[
+    {
+      "id": "tent-001",
+      "name": "EcoBreeze 2-Person Tent",
+      "description": "Lightweight and environmentally friendly 2-person tent made from recycled materials. Features a waterproof fly and durable aluminum poles for a secure setup. Perfect for backpacking trips.",
+      "price": 199.99,
+      "discountPrice": 179.99,
+      "category": "tents",
+      "image": "images/tent-eco-breeze.jpg",
+      "rating": 4.7,
+      "reviewCount": 128,
+      "stock": 15,
+      "featured": true,
+      "eco": ["Recycled polyester fabric", "PFC-free waterproofing", "Repair program available"],
+      "specifications": {
+        "capacity": "2 person",
+        "weight": "1.8 kg",
+        "dimensions": "220 x 130 x 100 cm",
+        "packSize": "45 x 15 cm",
+        "seasonRating": "3-season"
+      },
+      "dateAdded": "2024-04-01T00:00:00Z"
+    },
+    {
+      "id": "tent-002",
+      "name": "SolarDome Family Tent",
+      "description": "Spacious family tent with integrated solar panels to charge your devices. Made with sustainable materials and featuring a unique easy-setup system.",
+      "price": 349.99,
+      "discountPrice": null,
+      "category": "tents",
+      "image": "images/tent-solar-dome.jpg",
+      "rating": 4.5,
+      "reviewCount": 86,
+      "stock": 8,
+      "featured": true,
+      "eco": ["Solar charging capability", "BlueSign certified materials", "Carbon neutral production"],
+      "specifications": {
+        "capacity": "4 person",
+        "weight": "5.2 kg",
+        "dimensions": "250 x 240 x 180 cm",
+        "packSize": "65 x 25 cm",
+        "seasonRating": "3-season"
+      },
+      "dateAdded": "2024-03-15T00:00:00Z"
+    },
+    {
+      "id": "tent-003",
+      "name": "Alpine Eco Ultralight",
+      "description": "Our lightest tent yet, perfect for solo adventures in the backcountry. Made with innovative sustainable fabrics that don't compromise on durability.",
+      "price": 249.99,
+      "discountPrice": null,
+      "category": "tents",
+      "image": "images/tent-alpine-ultralight.jpg",
+      "rating": 4.2,
+      "reviewCount": 42,
+      "stock": 5,
+      "featured": false,
+      "eco": ["Ultra-lightweight recycled nylon", "Biodegradable stakes", "Plastic-free packaging"],
+      "specifications": {
+        "capacity": "1 person",
+        "weight": "1.2 kg",
+        "dimensions": "220 x 90 x 95 cm",
+        "packSize": "35 x 12 cm",
+        "seasonRating": "3-season"
+      },
+      "dateAdded": "2024-04-20T00:00:00Z"
+    },
+    {
+      "id": "backpack-001",
+      "name": "TrailSeeker 45L Backpack",
+      "description": "Versatile and comfortable backpack made from recycled plastic bottles. Features multiple compartments, hydration compatibility, and an ergonomic design.",
+      "price": 149.99,
+      "discountPrice": 129.99,
+      "category": "backpacks",
+      "image": "images/backpack-trailseeker.jpg",
+      "rating": 4.8,
+      "reviewCount": 214,
+      "stock": 22,
+      "featured": true,
+      "eco": ["Made from 40 recycled bottles", "Lifetime repair warranty", "1% for the Planet member"],
+      "specifications": {
+        "volume": "45 liters",
+        "weight": "1.4 kg",
+        "dimensions": "68 x 35 x 25 cm",
+        "material": "Recycled polyester"
+      },
+      "dateAdded": "2024-01-20T00:00:00Z"
+    },
+    {
+      "id": "backpack-002",
+      "name": "DayTripper Hemp Backpack",
+      "description": "Casual and stylish backpack made from sustainable hemp and organic cotton. Perfect for everyday use, hiking, or as a carry-on for travel.",
+      "price": 89.99,
+      "discountPrice": null,
+      "category": "backpacks",
+      "image": "images/backpack-daytripper.jpg",
+      "rating": 4.3,
+      "reviewCount": 78,
+      "stock": 18,
+      "featured": false,
+      "eco": ["Organic hemp exterior", "Natural dyes", "Fair trade certification"],
+      "specifications": {
+        "volume": "22 liters",
+        "weight": "0.8 kg",
+        "dimensions": "48 x 30 x 20 cm",
+        "material": "Hemp and organic cotton"
+      },
+      "dateAdded": "2024-02-28T00:00:00Z"
+    },
+    {
+      "id": "backpack-003",
+      "name": "Alpine Explorer 65L",
+      "description": "Professional-grade backpacking pack designed for extended adventures. Features a customizable suspension system and weather-resistant materials.",
+      "price": 279.99,
+      "discountPrice": 249.99,
+      "category": "backpacks",
+      "image": "images/backpack-alpine-explorer.jpg",
+      "rating": 4.9,
+      "reviewCount": 156,
+      "stock": 7,
+      "featured": true,
+      "eco": ["Recycled nylon shell", "PFC-free water repellent", "Carbon offset shipping"],
+      "specifications": {
+        "volume": "65 liters",
+        "weight": "2.1 kg",
+        "dimensions": "75 x 40 x 30 cm",
+        "material": "Recycled ripstop nylon"
+      },
+      "dateAdded": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "apparel-001",
+      "name": "EcoTrek Hiking Pants",
+      "description": "Versatile hiking pants made from organic cotton and recycled polyester. Feature zippered pockets, adjustable waistband, and convertible design.",
+      "price": 79.99,
+      "discountPrice": null,
+      "category": "apparel",
+      "image": "images/apparel-ecotrek-pants.jpg",
+      "rating": 4.6,
+      "reviewCount": 92,
+      "stock": 35,
+      "featured": false,
+      "eco": ["Organic cotton blend", "Recycled zippers and buttons", "Fair labor practices"],
+      "specifications": {
+        "material": "68% organic cotton, 32% recycled polyester",
+        "weight": "380g",
+        "features": "Convertible to shorts, UPF 50+"
+      },
+      "dateAdded": "2024-02-15T00:00:00Z"
+    },
+    {
+      "id": "apparel-002",
+      "name": "Merino Blend Base Layer",
+      "description": "Naturally odor-resistant and moisture-wicking base layer made from ethical merino wool blend. Perfect for all outdoor activities in various conditions.",
+      "price": 69.99,
+      "discountPrice": 59.99,
+      "category": "apparel",
+      "image": "images/apparel-merino-base.jpg",
+      "rating": 4.8,
+      "reviewCount": 134,
+      "stock": 42,
+      "featured": true,
+      "eco": ["Ethical wool sourcing", "Biodegradable material", "Low-impact dyes"],
+      "specifications": {
+        "material": "85% merino wool, 15% recycled polyester",
+        "weight": "180g",
+        "features": "Flatlock seams, thumbholes, UPF 30+"
+      },
+      "dateAdded": "2024-01-10T00:00:00Z"
+    },
+    {
+      "id": "apparel-003",
+      "name": "Weather Shield Eco Jacket",
+      "description": "Durable, eco-friendly shell jacket that provides excellent protection from wind and rain without the use of harmful PFCs. Lightweight and packable.",
+      "price": 189.99,
+      "discountPrice": 159.99,
+      "category": "apparel",
+      "image": "images/apparel-weather-shield.jpg",
+      "rating": 4.7,
+      "reviewCount": 106,
+      "stock": 23,
+      "featured": true,
+      "eco": ["PFC-free DWR treatment", "Recycled polyester shell", "Bluesign certified"],
+      "specifications": {
+        "material": "100% recycled polyester",
+        "weight": "320g",
+        "features": "Waterproof (20,000mm), breathable, hood, ventilation zips"
+      },
+      "dateAdded": "2024-03-21T00:00:00Z"
+    },
+    {
+      "id": "hydration-001",
+      "name": "Stainless Steel Water Bottle 750ml",
+      "description": "Durable stainless steel water bottle that keeps drinks cold for 24 hours or hot for 12 hours. Plastic-free design with a bamboo cap.",
+      "price": 34.99,
+      "discountPrice": null,
+      "category": "hydration",
+      "image": "images/hydration-steel-bottle.jpg",
+      "rating": 4.7,
+      "reviewCount": 218,
+      "stock": 54,
+      "featured": true,
+      "eco": ["Plastic-free design", "Sustainable bamboo cap", "Lifetime guarantee"],
+      "specifications": {
+        "capacity": "750ml",
+        "weight": "360g",
+        "dimensions": "27 x 7.5 cm",
+        "material": "18/8 food-grade stainless steel"
+      },
+      "dateAdded": "2024-01-05T00:00:00Z"
+    },
+    {
+      "id": "hydration-002",
+      "name": "TrailFilter Water System",
+      "description": "Compact water filtration system that removes 99.9999% of bacteria and protozoa. Ideal for backpacking, emergency preparedness, and global travel.",
+      "price": 49.99,
+      "discountPrice": 39.99,
+      "category": "hydration",
+      "image": "images/hydration-trail-filter.jpg",
+      "rating": 4.9,
+      "reviewCount": 176,
+      "stock": 18,
+      "featured": false,
+      "eco": ["Reduces plastic bottle waste", "Recyclable filter", "Plant-based packaging"],
+      "specifications": {
+        "capacity": "2000 liters before replacement",
+        "weight": "65g",
+        "dimensions": "17 x 6 cm",
+        "filtration": "0.1 micron absolute"
+      },
+      "dateAdded": "2024-02-10T00:00:00Z"
+    },
+    {
+      "id": "hydration-003",
+      "name": "Collapsible Water Reservoir 3L",
+      "description": "Lightweight and durable water reservoir for hiking and camping. Features a wide opening for easy filling and a leak-proof valve system.",
+      "price": 29.99,
+      "discountPrice": null,
+      "category": "hydration",
+      "image": "images/hydration-reservoir.jpg",
+      "rating": 4.5,
+      "reviewCount": 88,
+      "stock": 29,
+      "featured": false,
+      "eco": ["BPA-free material", "Reduced plastic compared to bottles", "Replaceable parts"],
+      "specifications": {
+        "capacity": "3 liters",
+        "weight": "115g",
+        "dimensions": "35 x 20 cm (filled)",
+        "material": "TPU with RF-welded seams"
+      },
+      "dateAdded": "2024-03-05T00:00:00Z"
+    },
+    {
+      "id": "lighting-001",
+      "name": "SolarFlare Rechargeable Lantern",
+      "description": "Versatile camping lantern with both solar and USB charging. Features multiple lighting modes and can also serve as a power bank for small devices.",
+      "price": 59.99,
+      "discountPrice": 49.99,
+      "category": "lighting",
+      "image": "images/lighting-solar-lantern.jpg",
+      "rating": 4.6,
+      "reviewCount": 142,
+      "stock": 25,
+      "featured": true,
+      "eco": ["Solar powered", "Reduces battery waste", "Recycled plastic components"],
+      "specifications": {
+        "lumens": "350 max",
+        "weight": "280g",
+        "dimensions": "15 x 8 cm",
+        "batteryLife": "Up to 60 hours on low setting"
+      },
+      "dateAdded": "2024-01-25T00:00:00Z"
+    },
+    {
+      "id": "lighting-002",
+      "name": "Dynamo Eco Headlamp",
+      "description": "Innovative headlamp that can be charged via solar panel, USB, or with the integrated hand crank. Never worry about batteries again.",
+      "price": 42.99,
+      "discountPrice": null,
+      "category": "lighting",
+      "image": "images/lighting-headlamp.jpg",
+      "rating": 4.4,
+      "reviewCount": 96,
+      "stock": 32,
+      "featured": false,
+      "eco": ["No disposable batteries needed", "Hand crank option", "Recycled aluminum housing"],
+      "specifications": {
+        "lumens": "250 max",
+        "weight": "120g",
+        "modes": "High, medium, low, red night vision",
+        "batteryLife": "Up to 40 hours on low setting"
+      },
+      "dateAdded": "2024-02-22T00:00:00Z"
+    },
+    {
+      "id": "lighting-003",
+      "name": "String Lights Solar",
+      "description": "Decorative and functional LED string lights powered by a solar panel. Perfect for campsite ambiance without battery waste.",
+      "price": 24.99,
+      "discountPrice": 19.99,
+      "category": "lighting",
+      "image": "images/lighting-string-lights.jpg",
+      "rating": 4.2,
+      "reviewCount": 68,
+      "stock": 45,
+      "featured": false,
+      "eco": ["100% solar powered", "LED efficiency", "Weather resistant for longer life"],
+      "specifications": {
+        "length": "5 meters",
+        "bulbs": "30 warm white LEDs",
+        "weight": "180g",
+        "batteryLife": "Up to 8 hours after full charge"
+      },
+      "dateAdded": "2024-03-18T00:00:00Z"
+    },
+    {
+      "id": "cooking-001",
+      "name": "BioFuel Camp Stove",
+      "description": "Efficient and environmentally friendly camp stove that uses renewable biofuel. Compact design with excellent simmer control.",
+      "price": 79.99,
+      "discountPrice": 69.99,
+      "category": "cooking",
+      "image": "images/cooking-biofuel-stove.jpg",
+      "rating": 4.7,
+      "reviewCount": 124,
+      "stock": 16,
+      "featured": true,
+      "eco": ["Uses renewable biofuel", "Low emissions", "Recyclable stainless steel"],
+      "specifications": {
+        "weight": "350g",
+        "dimensions": "12 x 12 x 9 cm",
+        "output": "9000 BTU",
+        "boilTime": "4.5 minutes for 1 liter"
+      },
+      "dateAdded": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "cooking-002",
+      "name": "Collapsible Silicone Cookset",
+      "description": "Space-saving cookware set including pots, bowls, and measuring cups that collapse for easy packing. Made from food-grade silicone.",
+      "price": 54.99,
+      "discountPrice": null,
+      "category": "cooking",
+      "image": "images/cooking-silicone-set.jpg",
+      "rating": 4.5,
+      "reviewCount": 86,
+      "stock": 23,
+      "featured": false,
+      "eco": ["Space and weight efficient", "Durable for long life", "BPA-free materials"],
+      "specifications": {
+        "pieces": "8-piece set",
+        "weight": "680g",
+        "packSize": "20 x 10 x 5 cm",
+        "material": "Food-grade silicone and recycled nylon"
+      },
+      "dateAdded": "2024-02-08T00:00:00Z"
+    },
+    {
+      "id": "cooking-003",
+      "name": "Solar Oven Portable",
+      "description": "Innovative portable solar oven that requires no fuel. Reaches temperatures up to 550°F (288°C) in full sun, perfect for eco-friendly outdoor cooking.",
+      "price": 149.99,
+      "discountPrice": 129.99,
+      "category": "cooking",
+      "image": "images/cooking-solar-oven.jpg",
+      "rating": 4.3,
+      "reviewCount": 52,
+      "stock": 7,
+      "featured": true,
+      "eco": ["Zero-emission cooking", "No fuel needed", "Recycled aluminum reflectors"],
+      "specifications": {
+        "weight": "1.6 kg",
+        "dimensions": "60 x 30 x 10 cm (folded)",
+        "maxTemp": "550°F (288°C)",
+        "cookTime": "20-60 minutes depending on food"
+      },
+      "dateAdded": "2024-04-05T00:00:00Z"
+    },
+    {
+      "id": "tent-004",
+      "name": "Forest Hammock Tent",
+      "description": "Innovative tree-friendly hammock tent that offers comfortable off-ground sleeping without damaging trees. Includes rainfly and bug net.",
+      "price": 189.99,
+      "discountPrice": null,
+      "category": "tents",
+      "image": "images/tent-hammock.jpg",
+      "rating": 4.4,
+      "reviewCount": 76,
+      "stock": 12,
+      "featured": false,
+      "eco": ["Tree-friendly straps", "Recycled ripstop nylon", "Compact packing"],
+      "specifications": {
+        "capacity": "1 person",
+        "weight": "1.4 kg",
+        "dimensions": "275 x 140 cm",
+        "maxWeight": "136 kg",
+        "seasonRating": "3-season"
+      },
+      "dateAdded": "2024-02-05T00:00:00Z"
+    },
+    {
+      "id": "backpack-004",
+      "name": "Kids EcoExplorer Pack",
+      "description": "Right-sized adventure pack for young explorers. Made from durable, eco-friendly materials with adjustable straps to grow with the child.",
+      "price": 69.99,
+      "discountPrice": 59.99,
+      "category": "backpacks",
+      "image": "images/backpack-kids.jpg",
+      "rating": 4.7,
+      "reviewCount": 48,
+      "stock": 25,
+      "featured": false,
+      "eco": ["Recycled materials", "Non-toxic dyes", "Designed for durability"],
+      "specifications": {
+        "volume": "18 liters",
+        "weight": "0.6 kg",
+        "dimensions": "40 x 30 x 15 cm",
+        "material": "Recycled polyester"
+      },
+      "dateAdded": "2024-03-25T00:00:00Z"
+    }
+  ]
