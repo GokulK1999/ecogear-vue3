@@ -15,12 +15,13 @@ const routes = [
       name: 'products',
       meta: { title: 'Products - EcoGear' }
   },
-  {
-      path: '/cart',
-      component: CartPage,
-      name: 'cart',
-      meta: { title: 'Shopping Cart - EcoGear' }
-  },
+  // Temporarily comment out cart route until CartPage.js is created
+  // {
+  //     path: '/cart',
+  //     component: CartPage,
+  //     name: 'cart',
+  //     meta: { title: 'Shopping Cart - EcoGear' }
+  // },
   {
       path: '/register',
       component: RegisterPage,
